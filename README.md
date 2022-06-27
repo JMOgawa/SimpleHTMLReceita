@@ -3,7 +3,7 @@ Página HTML simples
 Exercício feito na faculdade (1ºsemestre)
 
 
-![index](https://user-images.githubusercontent.com/108015125/176007362-a48fc9d7-fa6e-43c4-a43e-7c2d3a54ec7d.PNG)
+
 
 
 ![receita](https://user-images.githubusercontent.com/108015125/176007214-5534c3bb-d9f8-4802-b507-720f5548d798.png)
