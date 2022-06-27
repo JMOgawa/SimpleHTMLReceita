@@ -1,9 +1,9 @@
 # SimpleHTMLReceita
 Página HTML simples
-Exercício feito na faculdade (1ºsemestre)
+<br>Exercício feito na faculdade (1ºsemestre)
 
 
-
+![index](https://user-images.githubusercontent.com/108015125/176007922-78e0a116-0a02-48c1-8293-0d5697aa591d.png)
 
 
 ![receita](https://user-images.githubusercontent.com/108015125/176007214-5534c3bb-d9f8-4802-b507-720f5548d798.png)
