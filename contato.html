@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Contato</title>
+</head>
+<body>
+    <form method="post" action="">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label for="nome">
+                <input type="text" id="nome" name="nome" placeholder="*Nome" required="required">
+            </label>
+            <label for="snome">
+                <input type="text" id="snome" name="snome" placeholder="Sobrenome" maxlength="10" >
+            </label>
+            <br>
+            <br>
+            <label for="e-mail">*Email:</label>
+            <input type="email" id="e-mail" name="usermail" required="required" size="50" >
+            <br>
+            <br>
+            Senha: <input type="password" name="senha" placeholder="xxxxxxxxxxx" readonly>
+            <br>
+            <br>
+            <input type="url" name="homepage" placeholder="URL" disabled/>
+            <br>
+            <br>
+            <input type="radio" name="emoji" value="S" />:)<br>
+            <input type="radio" name="emoji" value="N" />:(<br>
+            <br>
+            <input type="button" onclick="alert('(*) indica preenchimento obrigatório')" value="Clique Aqui">
+        </fieldset><br>
+
+        <button type="button">
+            <img src="arquivos/img.jpg" width="200" height="200">
+        </button><br>
+
+        <fieldset>
+            <legend>Questionário</legend>
+            <label for="pergunta">Gostaria de ver outras receitas?</label><br>
+            <select>
+                <option id="pergunta" value="s">Sim</option>
+                <option id="pergunta" value="n">Não</option>
+            </select><br><br>
+            <select>
+                <optgroup label="Tipo">
+                    <option value="Salgado">Salgado</option>
+                    <option value="Doce">Doce</option>
+            </select><br>
+            <br>
+            <input type="checkbox" name="comida" value="Bolo" />Bolo<br>
+            <input type="checkbox" name="comida" value="Torta" />Torta <br>
+            <input type="checkbox" name="comida" value="Lanches" />Lanche<br>
+            <input type="checkbox" name="comida" value="Petiscos" />Petiscos<br>
+            <input type="checkbox" name="comida" value="Outros" />Outros<br>
+        </fieldset><br>
+
+        <input name="imagem" type="image" src="arquivos/enviar.png" width="150" height="150" /><br>
+
+        <input type="hidden" name="oculto" value="algumacoisa"><br>
+
+        <label for="assunto">Assunto da Mensagem:</label><br>
+        <input list="assunto" name="assunto" />
+        <datalist id="assunto">
+            <option value="Home">
+            <option value="Receita">
+            <option value="Vídeo">
+            <option value="Contato">
+            <option value="Áudio">
+            <option value="Sugestão">
+            <option value="Reclamação">
+        </datalist><br>
+        <textarea rows="8" cols="70" placeholder="*Deixe sua mensagem" autofocus="autofocus" required="required"></textarea><br>
+        Se preferir escolha um arquivo com a mensagem <input name="arquivo" type="file" />
+        <br>
+        <br>
+        <input type="submit" value="ENVIAR"><br>
+    </form><br>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="receita.html">Receita</a> |
+        <a href="video.html">Video</a> |
+        <a href="contato.html">Contato</a>
+    </nav>
+</body>
+
+</html>
